@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-#import RPi.GPIO as GPIO
+import RPi.GPIO as GPIO
 
 cap=cv2.VideoCapture(1)
 cap.set(3, 640)
